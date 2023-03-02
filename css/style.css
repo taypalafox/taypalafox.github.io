@@ -1,0 +1,89 @@
+@font-face {
+  font-family: tipouno;
+  src: url("/fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: tipodos;
+  src: url("/fonts/Montserrat-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: tipotres;
+  src: url("/fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: tipogris;
+  src: url("/fonts/Montserrat-ExtraLight.ttf");
+}
+
+.logo {
+  width: 100%;
+  max-width: 340px;
+}
+
+.store {
+  width: 100%;
+  max-width: 150px;
+}
+
+.imagenes {
+  width: 300px;
+}
+
+.textotipouno {
+  font-family: tipouno;
+  font-size: 35px;
+}
+
+.textotipodos {
+  font-family: tipodos;
+  font-size: 45px;
+}
+
+.textotipotres {
+  font-family: tipotres;
+  font-size: 30px;
+}
+
+.textotipotressmall {
+  font-family: tipotres;
+  font-size: 20px;
+}
+
+.textotipogris {
+  font-family: tipogris;
+  font-size: 15px;
+  color: dimgrey;
+}
+
+.hidden {
+  opacity: 0;
+}
+.console-container {
+  font-family: Khula;
+  font-size: 4em;
+  text-align: center;
+  height: 200px;
+  width: 600px;
+  display: block;
+  position: absolute;
+  color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.console-underscore {
+  display: inline-block;
+  position: relative;
+  top: -0.14em;
+  left: 10px;
+}
+
+#text {
+  font-family: tipotres;
+  font-size: 30px;
+}
