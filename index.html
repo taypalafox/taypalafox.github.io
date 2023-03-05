@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Total Play</title>
 </head>
 
@@ -63,7 +64,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-5 d-flex justify-content-center align-items-center">
+            <div data-aos="fade-down-left" class="col-md-6 mt-5 d-flex justify-content-center align-items-center ">
                 <img class="logo" src="img/movil.png" alt="">
             </div>
             <!-- Segunda sección -->
@@ -86,7 +87,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-5 d-flex justify-content-center align-items-center">
+            <div data-aos="fade-down-right" class="col-md-6 mt-5 d-flex justify-content-center align-items-center">
                 <img class="logo" src="img/movildos.png" alt="">
             </div>
             <div
@@ -111,7 +112,7 @@
                 </div>
             </div>
             <!-- Slider -->
-            <div class="my-5">
+            <div data-aos="zoom-in" class="my-5">
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -202,6 +203,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
         </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1500,
+        });
+    </script>
 </body>
 
 </html>
