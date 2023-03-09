@@ -56,11 +56,3 @@ function consoleText(words, id, colors) {
     }
   }, 400);
 }
-
-var cards = document.querySelectorAll(".card");
-
-[...cards].forEach((card) => {
-  card.addEventListener("click", function () {
-    card.classList.toggle("is-flipped");
-  });
-});

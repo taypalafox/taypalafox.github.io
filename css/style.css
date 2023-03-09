@@ -78,6 +78,7 @@ a {
 .hidden {
   opacity: 0;
 }
+
 .console-container {
   font-family: Khula;
   font-size: 4em;
@@ -93,6 +94,7 @@ a {
   right: 0;
   margin: auto;
 }
+
 .console-underscore {
   display: inline-block;
   position: relative;
@@ -116,8 +118,6 @@ a {
   max-width: 1024px;
   margin: 0 auto;
 }
-
-/* Animaciones */
 
 /* Rotar imagenes */
 .logo {
@@ -176,6 +176,7 @@ ul {
   padding: 0;
   margin: 0;
 }
+
 ul li {
   position: relative;
   padding: 0;
