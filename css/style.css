@@ -1,0 +1,163 @@
+@font-face {
+  font-family: tipouno;
+  src: url("/fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: tipodos;
+  src: url("/fonts/Montserrat-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: tipotres;
+  src: url("/fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: tipogris;
+  src: url("/fonts/Montserrat-ExtraLight.ttf");
+}
+
+.logo {
+  width: 100%;
+  max-width: 340px;
+}
+
+.textotipouno {
+  font-family: tipouno;
+  font-size: 25px;
+  color: white;
+}
+
+.textotipodos {
+  font-family: tipodos;
+  font-size: 20px;
+  color: white;
+}
+
+.textotipotrestitulo {
+  font-family: tipotres;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  color: purple;
+}
+
+.textotipotressubtitulo {
+  font-family: tipotres;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  color: orange;
+}
+
+.textotipotressubtitulodos {
+  font-family: tipotres;
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  color: rgb(47, 0, 72);
+}
+
+.textotipotres {
+  font-family: tipotres;
+  font-size: 30px;
+  color: white;
+}
+
+.textotipotressmall {
+  font-family: tipotres;
+  font-size: 20px;
+  color: white;
+}
+
+.textotipogris {
+  font-family: tipogris;
+  font-size: 15px;
+  color: dimgrey;
+}
+
+.container-fluid.sizenav {
+  max-width: 960px;
+}
+
+.logototal {
+  width: 150px;
+}
+
+/* CARDS */
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #503888 !important;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 3.25rem !important;
+  height: 390px;
+}
+
+.card-body.d-flex.align-items-center {
+  margin: 0 auto;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 800px) {
+  main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  main{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+/* CARDS */
+
+
+/* PROPIEDADES DE LAS CARDS */
+
+.imagen {
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 190px;
+}
+
+.card-img{
+  text-align: center;
+}
+
+.card-text{
+  text-align: center;
+}
+
+.boton{
+  text-align: center;
+}
+
+.vh-100 {
+  height: 100vh !important;
+}
+
+.modal-content {
+  border-radius: 15px !important;
+}
+
+/* PROPIEDADES DE LAS CARDS */
